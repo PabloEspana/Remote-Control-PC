@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:layout_marginTop="15dp"
-        android:hint="Host IP Address" >
+        android:hint="Dirección IP de Host" >
 
         <requestFocus />
     </EditText>
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:layout_marginTop="15dp"
-        android:hint="Port Number"
+        android:hint="Número de Puerto"
         android:inputType="number" />
 
     <Button
