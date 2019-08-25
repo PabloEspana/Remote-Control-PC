@@ -2,6 +2,7 @@ package me.varunon9.remotecontrolpc;
 
 import android.Manifest;
 import android.annotation.TargetApi;
+import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.content.pm.PackageManager;
 import android.os.Build;
@@ -186,7 +187,11 @@ public class MainActivity extends AppCompatActivity
             fragment = new HelpFragment();
         } else if (id == R.id.action_live_screen) {
             fragment = new LiveScreenFragment();
+        }else if (id == R.id.nav_bluetooth){
+            Intent i = new Intent(MainActivity.this, BT_Activity.class);
+            startActivity(i);
         }
+
         if (fragment != null) {
             FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.content_frame, fragment);
