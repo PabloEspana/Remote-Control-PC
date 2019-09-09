@@ -9,7 +9,7 @@
         <item
             android:id="@+id/nav_bluetooth"
             android:icon="@drawable/ic_bluetooth"
-            android:title="Config. Bluetooth" />
+            android:title="Enviar ubicaciòn" />
         <item
             android:id="@+id/nav_touchpad"
             android:icon="@drawable/ic_touchpad"
@@ -22,18 +22,12 @@
             android:id="@+id/nav_file_transfer"
             android:icon="@drawable/ic_file_transfer"
             android:title="Transferir Archivos" />
-        <item
-            android:id="@+id/nav_file_download"
-            android:icon="@drawable/ic_file_download"
-            android:title="Descargar Archivos" />
+
         <item
             android:id="@+id/nav_image_viewer"
             android:icon="@drawable/ic_menu_gallery"
             android:title="Visor de imágen" />
-        <item
-            android:id="@+id/nav_media_player"
-            android:icon="@drawable/ic_media_player"
-            android:title="Reproductor de música" />
+
         <item
             android:id="@+id/nav_presentation"
             android:icon="@drawable/ic_menu_slideshow"

@@ -173,12 +173,8 @@ public class MainActivity extends AppCompatActivity
             fragment = new KeyboardFragment();
         } else if (id == R.id.nav_file_transfer) {
             fragment = new FileTransferFragment();
-        } else if (id == R.id.nav_file_download) {
-            fragment = new FileDownloadFragment();
         } else if (id == R.id.nav_image_viewer) {
             fragment = new ImageViewerFragment();
-        } else if (id == R.id.nav_media_player) {
-            fragment = new MediaPlayerFragment();
         } else if (id == R.id.nav_presentation) {
             fragment = new PresentationFragment();
         } else if (id == R.id.nav_power_off) {

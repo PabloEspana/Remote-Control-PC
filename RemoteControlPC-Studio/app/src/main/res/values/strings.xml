@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Control PC</string>
+    <string name="app_name">Bloqueo por distancia</string>
     <string name="connect">Conectar</string>
     <string name="touchpad">Touchpad</string>
     <string name="keyboard">Teclado</string>
